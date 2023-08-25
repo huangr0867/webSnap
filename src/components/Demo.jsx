@@ -88,7 +88,7 @@ const Demo = () => {
             type='submit'
             className='submit_btn peer-focus:border-gray-700 peer-focus:text-gray-700 '
           >
-            <p>↵</p>
+            <p>Generate</p>
           </button>
         </form>
 
@@ -131,7 +131,7 @@ const Demo = () => {
           article.summary && (
             <div className='flex flex-col gap-3'>
               <h2 className='font-satoshi font-bold text-gray-600 text-xl'>
-                Article <span className='blue_gradient'>Summary</span>
+                Quick <span className='blue_gradient'>Summary</span>
               </h2>
               <div className='summary_box'>
                 <p className='font-inter font-medium text-sm text-gray-700'>
